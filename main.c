@@ -1,6 +1,6 @@
 /*
- * Display common sizeof()'s for an operating system, such as Windows, MacOSX or
- * Linux.
+ * Display common sizeof()'s for an operating system, such as Windows, MacOSX,
+ * Linux or QNX's Neutrino RTOS.
  *
  * Web Reference: https://www.tutorialspoint.com/cprogramming/c_data_types.htm
  *
@@ -13,7 +13,8 @@
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
-    printf("Usage: %s name-of-os, such as Windows, Mac, Linux\n", argv[0]);
+    printf("Usage: %s name-of-os, such as Windows, Mac, Linux, Neutrino\n",
+           argv[0]);
     return EXIT_FAILURE;
   }
 
